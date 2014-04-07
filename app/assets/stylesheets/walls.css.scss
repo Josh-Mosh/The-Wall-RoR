@@ -1,0 +1,93 @@
+// Place all the styles related to the Walls controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+	background-color: #a44f2c;
+
+}
+
+.container-fluid {
+	margin: 20px;
+
+	padding: 30px;
+	background-color: #DDDDDD;
+}
+
+.header h3, .simple_form.edit_user{
+	display: inline-block;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+.header h1 {
+	font-size: 100px;
+}
+
+div.col-md-4
+{
+	text-align: right;
+	height: 100px;
+}
+
+.all_posts {
+	margin-left: 20px;
+}
+
+.all_comments {
+	margin-left: 20px;
+	border: 1px dashed silver;
+	display: inline-block;
+	padding: 10px;
+}
+
+	.all_comments p {
+		font-size: 16px;
+	}
+
+.comment h5 {
+	color: #a44f2c;
+}
+
+.post h4 {
+	color: #a44f2c;
+	border-top: 1px solid silver;
+	padding: 10px;
+	padding-left: 0px;
+}
+
+.post_content {
+	font-size: 22px;
+}
+
+#post_message {
+	width: 100%;
+	height: 100px;
+}
+
+#comment_message {
+	width: 300px;
+}
+
+span {
+	color: black;
+	font-style: italic;
+	font-size: 12px;
+}
+
+.success {
+	color: green;
+}
+
+.errors {
+	color: red;
+}
+
+.btn {
+	margin-top: 0px;
+}
+
+.btn.btn-primary {
+	margin-left: 8px;
+	margin-bottom: 8px;
+}
