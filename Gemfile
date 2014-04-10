@@ -47,5 +47,4 @@ end
 
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'hirb'
-gem 'rails-footnotes', '>= 3.7.9', :group => :development
 gem 'simple_form'
